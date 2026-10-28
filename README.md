@@ -174,3 +174,7 @@ Se usa **GetIt** como Service Locator. Toda la configuración se encuentra en `i
 - **Manejo de errores en UI:** los BLoCs deben emitir estados de error específicos (ej: `CatalogListErrorState`) en lugar de lanzar excepciones que rompan la app.
 - **No saltar capas:** la UI nunca debe llamar directamente a un `DataProvider` ni a un `Repository`. Siempre debe pasar por el BLoC y luego por la Facade.
 - **Testing:** gracias a las interfaces en `domain`, los repositorios y BLoCs pueden mockearse fácilmente en pruebas unitarias.
+
+Os mando el link de mas información como documentación diagramas esto es un resumen también encontraran el código fuente.
+
+[Mas Informacion](https://github.com/mhadaily/flutter-architecture-ddd/tree/master)
